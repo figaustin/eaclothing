@@ -1,0 +1,57 @@
+/* Provide sufficient contrast against white background */
+
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.maintext {
+   
+}
+
+.maintext:hover {
+    background-color: gainsboro
+}
+
+.gender-cover-photo {
+    max-height: 800px;
+}
+
+.product-photo {
+    max-height: 600px;
+    max-width: 900px;
+}
+
+.products-container {
+    width: 90%
+}
+
+.product-card {
+    position: relative;
+    top: 0;
+    transition: top ease 0.2s;
+}
+
+.product-card:hover {
+    top: -5px;
+    cursor: pointer;
+}
+
+.cart-link {
+    text-decoration: none
+}
+
+.cart-link:hover{
+    text-decoration: underline
+}
+
+
